@@ -147,7 +147,11 @@ const hand2 = [5, 5, 3, 3, 4]
 // Expected output: false
 const hand3 = [5, 5, 5, 5, 4]
 // Expected output: false
+
+
         expect(fullOfFive(hand1)).toEqual(true)
+        expect(fullOfFive(hand2)).toEqual(false)
+        expect(fullOfFive(hand3)).toEqual(false)
     })
 })
 // × takes in an array of 5 numbers and determines whether or not the array is a “full house”. A full house is exactly one pair and one three of a kind. (1 ms)
@@ -159,28 +163,23 @@ const hand3 = [5, 5, 5, 5, 4]
 // b) Create the function that makes the test pass.
 
 const fullOfFive = (foot) => {
-    var reachFive = 0
-    for(let i =0; i>foot.length; i++){
-        if(foot.indexOf(foot[i]) === foot.lastIndexOf(foot[i])){
-            return reachFive += 1
+    firstFoot = foot[0]
+    first = foot.filter(value => {
+        if(value !== firstFoot){
+            return value
         }
-    }
-    if(reachFive = 5){
+    })
+    secondFoot = foot[0]
+    second = first.filter(value => {
+        if(value === secondFoot){
+            return value
+        }
+    })
+    if(first.length === 2 || second.length === 2 && first.length === 3 || second.length === 3){
         return true
     }else{
         return false
     }
+
 }
 
-// PASS  ./code-challenges.test.js
-// crypto
-//   √ takes in a string and returns a coded message. The coded message converts 'a' to 4, 'e' to 3, 'i' to 1, and 'o' to 0. (2 ms)
-// allHave
-//   √ takes in an array of words and a single letter and returns all the words that contain that particular letter. (1 ms)
-// fullOfFive
-//   √ takes in an array of 5 numbers and determines whether or not the array is a “full house”. A full house is exactly one pair and one three of a kind.
-
-// Test Suites: 1 passed, 1 total
-// Tests:       3 passed, 3 total
-// Snapshots:   0 total
-// Time:        0.335 s, estimated 1 s
