@@ -55,6 +55,12 @@ const secretCodeWord3 = "Eccentric"
 //   ReferenceError: crypto is not defined
 // takes in a string and returns a coded message. The coded message converts 'a' to 4, 'e' to 3, 'i' to 1, and 'o' to 0.
 // b) Create the function that makes the test pass.
+
+// create a function taking in one string
+//use split to change the word into singular letter strings
+//set up two variables that are aligned index wise one for the letters and one for the numbers they are meant to be
+// create if statement to test if a letter is present and return a change or no change if not present.
+//rejoin to return proper word
 const crypto = (stringCheese) => {
 
     let numbers= ["4","3","1","0","4","3","1","0"]
@@ -109,6 +115,8 @@ describe("allHave", () => {
 //   ReferenceError: allHave is not defined
 
 // b) Create the function that makes the test pass.
+//create function taking in an array and a letter
+//run filter to see if any given word in the array contains a match of the letter if so then return the word
 
 const allHave = (array, letter) => {
     return array.filter(value => {
@@ -161,6 +169,10 @@ const hand3 = [5, 5, 5, 5, 4]
 //   ReferenceError: fullOfFive is not defined
 
 // b) Create the function that makes the test pass.
+//create a function taking in one array
+//create two filters that return sets of any repeated values in the array
+//run the two filtered arrays to see if one contains two and the other contains 3 
+//the 178firstfoot and 184second foot are not required but ill leave the pair for now.
 
 const fullOfFive = (foot) => {
     firstFoot = foot[0]
