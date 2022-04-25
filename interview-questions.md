@@ -41,8 +41,11 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: A way to maintain order in a database. Having everything have its own identifier allows for better management of large data sets.
 
-  Researched answer: ^ nothing to add
+  Researched answer: A primary key is way to identify the set of information in a database without a chance to have it bring up the wrong information. An example of this would be if you want to retrieve information such as a name but two people with the same name exist in your records. the Primary key will allow for you to not call the wrong persons information. 
 
+ their history, use cases, and how the relate to other pieces of data that you could touch on.
+
+I would happily hear about your experience with primary keys.: I have no experience in coding with primary keys what I do have relational experience in is with excel sheets. If you outline an area and chose to use the sort function by default it will use the first column as a primary key to sort by. If you chose a different column to sort by then that will be the primary key in regards to how all the other information will be ordered. 
 
 
 ## Looking Ahead: Terms for Next Week
