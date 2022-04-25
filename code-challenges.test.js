@@ -183,3 +183,15 @@ const fullOfFive = (foot) => {
 
 }
 
+// PASS  ./code-challenges.test.js
+// crypto
+//   √ takes in a string and returns a coded message. The coded message converts 'a' to 4, 'e' to 3, 'i' to 1, and 'o' to 0. (3 ms)
+// allHave
+//   √ takes in an array of words and a single letter and returns all the words that contain that particular letter. (1 ms)
+// fullOfFive
+//   √ takes in an array of 5 numbers and determines whether or not the array is a “full house”. A full house is exactly one pair and one three of a kind. (1 ms)
+
+// Test Suites: 1 passed, 1 total
+// Tests:       3 passed, 3 total
+// Snapshots:   0 total
+// Time:        0.258 s, estimated 1 s
