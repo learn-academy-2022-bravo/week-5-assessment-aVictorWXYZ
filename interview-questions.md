@@ -9,15 +9,15 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:a ruby hash is like an array but more complex. It allows for entering values with keys where you are able to call apon them with
 
-  Researched answer:
+  Researched answer: A collection of unique keys and their values. 
 
 
 
 2. What is a gem?
 
-  Your answer: a Code packaged for ruby
+  Your answer: Code packaged for ruby
 
-  Researched answer:
+  Researched answer: A gem is a module/Library 
 
 
 
@@ -25,35 +25,35 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: A framework that allows the combining of functionalities with ruby being one of them.
 
-  Researched answer:
+  Researched answer: a server-side web application framework
 
 
 
 4. What is a relational database? Are there other kinds of databases?
 
-  Your answer: a database has 
+  Your answer: a database has information in a table layout, lots of different types of databases are used
 
-  Researched answer:
+  Researched answer:  The relational database name comes from the way that data is stored in tables. Yes, lots of different kinds of databases for different tasks.
 
 
 
 5. What are primary keys? Why are they important?
 
-  Your answer: A way to maintain order in a database. having everything have its own identifier allows for better management of large data sets.
+  Your answer: A way to maintain order in a database. Having everything have its own identifier allows for better management of large data sets.
 
-  Researched answer:
+  Researched answer: ^ nothing to add
 
 
 
 ## Looking Ahead: Terms for Next Week
 Research and define the following terms to the best of your ability.
 
-1. RESTful routes:
+1. RESTful routes: A standard for mapping information in HTTP
 
-2. JSON:
+2. JSON: Javascript Object Notation information in a hash format
 
-3. ERB:
+3. ERB: Similar to JSX
 
-4. Params:
+4. Params: collection of data that get passed into the controller using GET request
 
-5. API:
+5. API: Application Programming Interface: Opens the door for communication between anyone and data on a server.
